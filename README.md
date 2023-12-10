@@ -1,3 +1,26 @@
 # Kiran_INBT07163
 
-Responsive Beauty care – Single Product Shop HTML CSS Theme is an elegantly designed and versatile Product theme that gives you smartly optimized page layouts and sections so you can easily create a stunning Product store for a beauty care product. It incorporates a clean and modern design to give your website a professional look in little to no time.
+Welcome to the Kiran_INBT07163 project, a comprehensive collection of tasks and major projects!
+# Contents
+1. Task 1 - Beauty care landing page
+2. Task 2 - Language Translator
+3. Major project -
+   
+# Tasks
+
+# Task 1- Beauty care
+Beauty care is a sophisticated and responsive landing page. 
+
+# Task 2 - Language Translator
+Effortlessly break language barriers with our intuitive and powerful translator app, enabling seamless communication in multiple languages.
+
+# Major Project -
+Discover our major project,      with exciting features.
+
+# License
+This project was made and designed by kiran, and she holds all the rights to it.
+
+# Acknowledgments
+Special thanks to the iNeubytes community for their support and contributions.
+
+
