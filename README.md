@@ -14,7 +14,7 @@ Beauty care is a sophisticated and responsive landing page.
 # Task 2 - Language Translator
 Effortlessly break language barriers with our intuitive and powerful translator app, enabling seamless communication in multiple languages.
 
-# Major Project -
+# Major Project -Book store
 Discover our major project, Book store with exciting features.
 
 # License
