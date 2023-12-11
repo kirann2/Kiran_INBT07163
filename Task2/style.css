@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: rgba(111, 187, 183, 0.763);
+}
+
+.container {
+  width: 690px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.wrapper {
+  border-radius: 5px;
+  border: 1px solid #bbb;
+}
+
+.wrapper .text-input {
+  display: flex;
+  border-bottom: 1px solid #bbb;
+}
+
+.text-input .to-text {
+  border-radius: 0px;
+  border-left: 3px solid #bbb;
+}
+
+.text-input textarea {
+  height: 250px;
+  width: 100%;
+  border: none;
+  outline: none;
+  resize: none;
+  font-size: 18px;
+  border-radius: 5px;
+  background: none;
+  padding: 10px 15px;
+}
+
+.controls,
+li,
+.icons,
+.icons i {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.controls {
+  list-style: none;
+  padding: 12px 15px;
+}
+
+.controls .row.from .icons {
+  padding-right: 15px;
+  border-right: 1px solid #bbb;
+}
+
+.controls .row.to .icons {
+  padding-left: 15px;
+  border-left: 1px solid #bbb;
+}
+
+.controls .icons {
+  width: 38%;
+}
+
+.controls .icons i {
+  width: 50px;
+  color: #9f9f9f;
+  font-size: 14px;
+  cursor: pointer;
+  justify-content: center;
+}
+
+.controls .row select {
+  border: none;
+  outline: none;
+  font-size: 18px;
+  background: none;
+}
+
+.controls .exchange {
+  color: #9f9f9f;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.container button {
+  width: 100%;
+  padding: 14px;
+  margin-top: 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 5px;
+  background: rgba(111, 187, 183, 0.763);
+  box-shadow: 0 0.5rem 1rem rgba(23, 25, 25, 0.1);
+}
+
+/* Media Query for smaller screens */
+@media screen and (max-width: 700px) {
+  .container {
+    width: 90%; /* Adjusted width for smaller screens */
+    padding: 15px;
+    margin:0 auto;
+  }
+
+  .text-input textarea {
+    height: 120px;
+  }
+
+  .wrapper .text-input {
+    flex-direction: column; /* Adjusted layout for smaller screens */
+  }
+
+  .text-input .to-text {
+    border-left: none; /* Removed left border for smaller screens */
+    border-top: 1px solid #bbb; /* Added top border for clarity */
+    margin-top: 10px; /* Adjusted top margin for smaller screens */
+  }
+
+  .controls {
+    flex-direction: column; /* Adjusted layout for smaller screens */
+    align-items: stretch; /* Adjusted alignment for smaller screens */
+  }
+
+  .controls .row {
+    margin: 15px 0; /* Adjusted margin for smaller screens */
+  }
+
+  .controls .icons {
+    width: 100%; /* Adjusted width for smaller screens */
+    justify-content: space-between; /* Adjusted spacing for smaller screens */
+  }
+  
+  .from{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .controls .exchange {
+    margin: 10px auto;
+    scale: 1.5;
+    padding: 2%;
+    background: rgba(111, 187, 183, 0.763);
+    border-radius: 33px;
+    color: #fff;
+  }
+
+  .controls .row.from .icons {
+    padding-right: 15px;
+    padding-left: 25px;
+    border-right: none;
+    scale: 1.1;
+  }
+  
+  .controls .row.to .icons {
+    padding-right: 15px;
+    padding-left: 25px;
+    border-left: none;
+    scale: 1.1;
+  }
+  .container button{
+    box-shadow: none;
+  }
+}
